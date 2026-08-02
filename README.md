@@ -10,7 +10,6 @@
 | 4. 데이터 검정가능성 | `data-inspect` | `feasibility_report.md` — verdict + 변수 매핑 (G4) |
 | 5. 통계 분석 | `stat-analysis` | `results.json`, `results.md`, STROBE 점검표 (G5) |
 | 6. 원고 | `manuscript-writer` | IMRaD 초안 .docx (G6) |
-| 6+. 그래픽 초록 | `graphical-abstract-prompter` | 이미지 도구용 프롬프트 |
 
 ## 입력 계약
 
@@ -39,7 +38,7 @@ Human gate G4–G6도 유지됩니다.
 | **모델 핀 제거** | 에이전트 전원의 `model: sonnet` 삭제 → 세션 모델 상속 |
 | **사전등록 재검증 루프 제거** | `run_analysis.py`가 설계 쪽 `lock.py`를 subprocess로 띄워 해시를 재대조하던 동작 삭제. 해시는 `results.json`에 그대로 기록됨 |
 | **설계 플러그인 의존 제거** | 위 변경으로 `../prereg-lock/` 경로 참조가 모두 사라져 독립 실행 가능 |
-| **중첩 저장소 제거** | `graphical-abstract-prompter/.git` (35파일) 삭제 |
+| **그래픽 초록 스킬 제거** | 어느 Phase에도 연결되지 않은 고아였고, description이 매 세션 상주 비용만 발생시켰음 (v1.2.0) |
 | **Phase 0–3 분리** | 문헌·가설·IRB는 `yumc-research-design`으로 이관 |
 
 ## 설치

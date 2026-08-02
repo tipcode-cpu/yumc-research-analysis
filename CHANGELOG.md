@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## 1.2.0
+
+### 제거
+- `skills/graphical-abstract-prompter/` — 어느 Phase에도 연결되지 않은 고아 스킬.
+  description이 매 세션 시스템 프롬프트에 상주해 **호출된 적 없는 채로 152토큰**을
+  계속 소비했다. 상주 비용 1,490 → 1,338토큰 (−10%).
+  내용은 v1.1.0 커밋 히스토리와 원본 `clinical-research-harness`에 그대로 남아 있어
+  필요하면 되살릴 수 있다.
+
 ## 1.1.0
 
 `clinical-research-harness` 1.0.0에서 포크·분할한 뒤의 정리.
