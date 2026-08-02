@@ -1,0 +1,24 @@
+# 환자 데이터가 들어가는 작업 폴더 — 절대 커밋 금지
+workspace/
+**/input/
+*.csv
+*.parquet
+*.xlsx
+*.docx
+
+# 산출물
+*.pdf
+results.*
+feasibility_report.*
+prereg.json
+study_info.json
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

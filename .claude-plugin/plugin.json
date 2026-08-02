@@ -1,0 +1,15 @@
+{
+  "name": "yumc-research-analysis",
+  "version": "1.1.0",
+  "description": "임상연구 분석·집필 단계(Phase 4–6) 하네스 — 데이터 검정가능성 평가, STROBE 준수 통계 분석, IMRaD 원고 초안, 그래픽 초록 프롬프트. prereg.json을 입력으로 받는다. 비타협 정책: PHI 행 비전송, effect size + 95% CI.",
+  "license": "MIT",
+  "keywords": [
+    "clinical-research",
+    "cardiology",
+    "STROBE",
+    "statistics",
+    "survival-analysis",
+    "manuscript",
+    "YUMC"
+  ]
+}
