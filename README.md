@@ -1,9 +1,22 @@
 # YUMC Research Analysis (Phase 4–6)
 
 임상연구의 **분석·집필 단계**를 담당하는 하네스입니다.
-[`yumc-research-design`](../yumc-research-design)이 만든 `prereg.json`을 입력으로 받습니다.
+[`yumc-research-design`](https://github.com/tipcode-cpu/yumc-research-design)이 만든 `prereg.json`을 입력으로 받습니다.
 
 `clinical-research-harness` (MIT, © 2026 Jeon Kihyun)의 포크입니다. 변경 내역은 아래 참조.
+
+## 플러그인 설치
+
+**Claude Code (터미널)**
+
+```
+/plugin marketplace add tipcode-cpu/yumc-research-analysis
+/plugin install yumc-research-analysis@yumc-research-analysis
+```
+
+**Claude 데스크톱 앱** — 설정 → 플러그인 → `추가` → `tipcode-cpu/yumc-research-analysis`
+
+업데이트는 `/plugin marketplace update yumc-research-analysis` 후 다시 설치하면 됩니다.
 
 | Phase | 스킬 | 산출물 |
 |---|---|---|
