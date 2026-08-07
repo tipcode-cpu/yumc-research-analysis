@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "yumc-research-analysis",
+  "description": "yumc-research-analysis — 단일 플러그인 마켓플레이스. 이 디렉토리(.) 자체가 플러그인이다.",
+  "version": "1.2.0",
+  "owner": {
+    "name": "Kang-Un Choi",
+    "email": "tipcode-cpu@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "yumc-research-analysis",
+      "source": ".",
+      "description": "임상연구 분석·집필 단계(Phase 4–6) 하네스 — 데이터 검정가능성 평가, STROBE 준수 통계 분석, IMRaD 원고 초안. prereg.json을 입력으로 받는다. 비타협 정책: PHI 행 비전송, effect size + 95% CI.",
+      "version": "1.2.0",
+      "author": {
+        "name": "Kang-Un Choi",
+        "email": "tipcode-cpu@users.noreply.github.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "clinical-research",
+        "cardiology",
+        "STROBE",
+        "statistics",
+        "survival-analysis",
+        "manuscript",
+        "YUMC"
+      ]
+    }
+  ]
+}
